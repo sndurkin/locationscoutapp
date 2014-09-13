@@ -4,19 +4,19 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 
 <!-- CHANGE THIS TITLE TAG -->
-<title>FlexApp - A Free Responsive Mobile App Website Template</title>
+<title>Location Scout Android app</title>
 
 <!-- media-queries.js -->
 <!--[if lt IE 9]>
-	<script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+    <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
 <![endif]-->
 <!-- html5.js -->
 <!--[if lt IE 9]>
-	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
 <![endif]-->
 
 
-<link href="font/stylesheet.css" rel="stylesheet" type="text/css" />	
+<link href="font/stylesheet.css" rel="stylesheet" type="text/css" />    
 <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
 <link href="css/bootstrap-responsive.min.css" rel="stylesheet" type="text/css" />
 <link href="css/styles.css" rel="stylesheet" type="text/css" />
@@ -35,303 +35,281 @@
 
 <!-- TOP MENU NAVIGATION -->
 <div class="navbar navbar-fixed-top">
-	<div class="navbar-inner">
-		<div class="container">
-	
-			<a class="brand pull-left" href="#">
-			FlexApp
-			</a>
-	
-			<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-			</a>
-		
-			<div class="nav-collapse collapse">
-				<ul id="nav-list" class="nav pull-right">
-					<li><a href="#home">Home</a></li>
-					<li><a href="#about">About</a></li>
-					<li><a href="#updates">Updates</a></li>
-					<li><a href="#screenshots">Screenshots</a></li>
-					<li><a href="#contact">Contact</a></li>
-				</ul>
-			</div>
-		
-		</div>
-	</div>
+    <div class="navbar-inner">
+        <div class="container">
+    
+            <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </a>
+        
+            <div class="nav-collapse collapse">
+                <ul id="nav-list" class="nav pull-right">
+                    <li><a href="#home">Home</a></li>
+                    <!--<li><a href="#about">About</a></li>-->
+                    <li><a href="#screenshots">Screenshots</a></li>
+                    <li><a href="#beta" class="beta">Join the beta</a></li>
+                    <li><a href="#updates">Updates</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        
+        </div>
+    </div>
+</div>
+
+
+<div class="header">
+
+    <div class="container content container-fluid" id="home">
+
+        <!-- HOME -->
+        <div class="row-fluid">
+      
+            <!-- PHONES IMAGE FOR DESKTOP MEDIA QUERY -->
+            <div class="span5 visible-desktop">
+                <img src="img/Devices.png">
+            </div>
+        
+            <!-- APP DETAILS -->
+            <div class="span7">
+        
+                <!-- ICON -->
+                <div class="visible-desktop" id="icon">
+                    <img src="img/app_icon.png" />
+                </div>
+                
+                <!-- APP NAME -->
+                <div id="app-name">
+                    <h1>Location Scout</h1>
+                </div>
+                
+                <!-- TAGLINE -->
+                <div id="tagline">
+                    An app that helps photographers save locations along with photos and notes
+                </div>
+            
+                <!-- PHONES IMAGE FOR TABLET MEDIA QUERY -->
+                <div class="hidden-desktop" id="phones">
+                    <img src="img/Devices.png">
+                </div>
+                
+                <!-- DESCRIPTION -->
+                <div id="description">
+                    Location Scout is an Android app that helps photographers and filmmakers save their scouted locations.
+                </div>
+                
+                <!-- FEATURES -->
+                <ul id="features">
+                    <li>Save a location with a title, notes, tags, and photos</li>
+                    <li>View your saved locations in a list, grid or map</li>
+                    <li>Search your saved locations by text or tags</li>
+                    <li>Sync your saved locations across any number of Android devices using a Google Drive account</li>
+                    <li>Light and dark themes</li>
+                </ul>
+                
+                <!-- DOWNLOAD & REQUIREMENT BOX -->
+                <div class="download-box">
+                    <!--
+                    <a href="https://play.google.com/store/apps/details?id=com.sndurkin.locationscout"><img src="img/android_app_on_play_logo_large.png"></a>
+                    <div style="padding: 1em 0 0 1em">Requires Android 4.0+</div>
+                    -->
+                    <h2 style="text-shadow: #333 0.02em 0.02em;">Location Scout is currently in beta but anyone can join. <a class="beta" href="#beta">Join the beta!</a></h2>
+                    <div style="padding: 1em 0 0 0">App requires Android 4.0+</div>
+                </div>
+                
+            </div>
+        </div>
+        
+    </div>
+    
 </div>
 
 
 <!-- MAIN CONTENT -->
 <div class="container content container-fluid" id="home">
-
-
-
-	<!-- HOME -->
-	<div class="row-fluid">
-  
-		<!-- PHONES IMAGE FOR DESKTOP MEDIA QUERY -->
-		<div class="span5 visible-desktop">
-			<img src="img/phones.png">
-		</div>
-	
-		<!-- APP DETAILS -->
-		<div class="span7">
-	
-			<!-- ICON -->
-			<div class="visible-desktop" id="icon">
-				<img src="img/app_icon.png" />
-			</div>
-			
-			<!-- APP NAME -->
-			<div id="app-name">
-				<h1>FlexApp</h1>
-			</div>
-			
-			<!-- VERSION -->
-			<div id="version">
-				<span class="version-top label label-inverse">Version 1.0</span>
-			</div>
+    
+    <!-- SCREENSHOTS -->
+    <div class="row-fluid" id="screenshots">
+        
+        <h2 class="page-title" id="scroll_up">
+                Screenshots
+                <a href="#home" class="arrow-top">
+                <img src="img/arrow-top.png">
+                </a>
+            </h2>
+        
+        <!-- SCREENSHOT IMAGES ROW 1-->
+        <ul class="thumbnails">
+            <li class="span3">
+                <a href="img/Phone1.png" rel="gallery" class="thumbnail">
+                    <img src="img/Phone1.png" alt="">
+                </a>
+            </li>
+        
+            <li class="span3">
+                <a href="img/Phone2.png" rel="gallery" class="thumbnail">
+                    <img src="img/Phone2.png" alt="">
+                </a>
+            </li>
             
-			<!-- TAGLINE -->
-			<div id="tagline">
-				A Free Responsive Website Template for Your Mobile App
-			</div>
-		
-			<!-- PHONES IMAGE FOR TABLET MEDIA QUERY -->
-			<div class="hidden-desktop" id="phones">
-				<img src="img/phones.png">
-			</div>
+            <li class="span3">
+                <a href="img/Phone3.png" rel="gallery" class="thumbnail">
+                    <img src="img/Phone3.png" alt="">
+                </a>
+            </li>
             
-			<!-- DESCRIPTION -->
-			<div id="description">
-				FlexApp is a free, fully responsive website template for marketing your mobile application. The design uses CSS3 to scale the content proportionally to whatever device is being used. Give it a try by resizing your browser!
-			</div>
+            <li class="span3">
+                <a href="img/Phone4.png" rel="gallery" class="thumbnail">
+                    <img src="img/Phone4.png" alt="">
+                </a>
+            </li>
+        </ul>
+        
+    </div>
+    
+    
+    <!-- DOWNLOAD & UPDATES -->
+    <div class="row-fluid" id="beta">
+        
+        <div class="span6">
+            <h2 class="page-title beta" id="scroll_up">
+                Join the beta
+                <a href="#home" class="arrow-top">
+                <img src="img/arrow-top.png">
+                </a>
+            </h2>
             
-			<!-- FEATURES -->
-			<ul id="features">
-				<li>Fully Responsive HTML/CSS3 Template</li>
-				<li>Built on Bootstrap by Twitter</li>
-				<li>Images and Photoshop Files Included</li>
-				<li>Completely Free!</li>
-			</ul>
-		
-			<!-- DOWNLOAD & REQUIREMENT BOX -->
-			<div class="download-box">
-				<a href="#"><img src="img/available-on-the-app-store.png"></a>
-			</div>
-			<div class="download-box">
-				<a href="#"><img src="img/android_app_on_play_logo_large.png"></a>
-			</div>
-			<div class="download-box">
-				<strong>Requirements:</strong><br>
-				Compatible with iPhone and iPod touch. Requires iPhone OS 2.2 or later. WiFi, Edge, or 3G network connection sometimes required.
-			</div>
-			<div class="download-box">
-				<strong>Requirements:</strong><br>
-				Requires Android 2.3 and higher. WiFi, Edge, or 3G network connection sometimes required.
-			</div>
-			
-		</div>
-	</div>
-	
-	
-	
-	<!-- ABOUT & UPDATES -->
-	<div class="row-fluid" id="about">
-	
-		<div class="span6">
-			<h2 class="page-title" id="scroll_up">
-				About
-				<a href="#home" class="arrow-top">
-				<img src="img/arrow-top.png">
-				</a>
-			</h2>
-			
-			<p>FlexApp is a fully responsive HTML/CSS template perfect for marketing your mobile application. The template utilizes responsive CSS3 & jQuery technology to provide a consistent and enjoyable viewing experience across multiple devices.</p>
-			<p>FlexApp is 100% free to use. You may change, edit or modify the template however you wish, for free or commercial projects.</p> 
-			<p><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">FlexApp</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="http://www.carp.io" property="cc:attributionName" rel="cc:attributionURL">Carp</a> is licensed under <a rel="license" href="http://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a>.<br />Built on <a xmlns:dct="http://purl.org/dc/terms/" href="http://twitter.github.com/bootstrap/" rel="dct:source">Bootstrap</a>.</p>
-			
-		</div>
-	
-		<div class="span6 updates" id="updates">
-			<h2 class="page-title" id="scroll_up">
-				Updates
-				<a href="#home" class="arrow-top">
-				<img src="img/arrow-top.png">
-				</a>
-			</h2>
-			
-			<!-- UPDATES & RELEASE NOTES -->
-			
-			<h3 class="version">Version 1.2</h3>
-			<span class="release-date">Released on April 28th, 2012</span>
-			<ul>
-				<li><span class="label new">NEW</span>Challenge a Friend</li>
-				<li><span class="label fix">FIX</span>Fixed 'Resume Game' Bug</li>
-			</ul>
-			<hr>
-			
-			<h3 class="version">Version 1.1</h3>
-			<span class="release-date">Released on January 28th, 2012</span>
-			<ul>
-				<li><span class="label new">NEW</span>Facebook & Twitter Integration</li>
-				<li><span class="label fix">FIX</span>Various Bug Fixes</li>
-				<li><span class="label new">NEW</span>Graphics for Retina Display</li>
-			</ul>
-			<hr>
-		
-			<h3 class="version">Version 1.0</h3>
-			<span class="release-date">Released on January 10th, 2012</span>
-			<ul>
-				<li><span class="label label-info">NEW</span>Initial Release</li>
-			</ul>
-			
-		</div>
-	
-	</div>
-	
-	
-	
-	<!-- SCREENSHOTS -->
-	<div class="row-fluid" id="screenshots">
-		
-		<h2 class="page-title" id="scroll_up">
-				Screenshots
-				<a href="#home" class="arrow-top">
-				<img src="img/arrow-top.png">
-				</a>
-			</h2>
-		
-		<!-- SCREENSHOT IMAGES ROW 1-->
-		<ul class="thumbnails">
-			<li class="span3">
-				<a href="img/screenshot.jpg" rel="gallery" class="thumbnail">
-				<img src="img/screenshot.jpg" alt="">
-				</a>
-			</li>
-		
-			<li class="span3">
-				<a href="img/screenshot.jpg" rel="gallery" class="thumbnail">
-				<img src="img/screenshot.jpg" alt="">
-				</a>
-			</li>
-			
-			<li class="span3">
-				<a href="img/screenshot.jpg" rel="gallery" class="thumbnail">
-				<img src="img/screenshot.jpg" alt="">
-				</a>
-			</li>
- 
-			<li class="span3">
-				<a href="img/screenshot.jpg" rel="gallery" class="thumbnail">
-				<img src="img/screenshot.jpg" alt="">
-				</a>
-			</li>
-		</ul>	
-		
-		<!-- SCREENSHOT IMAGES ROW 2-->		
-		<ul class="thumbnails">
-			<li class="span3">
-				<a href="img/screenshot.jpg" rel="gallery" class="thumbnail">
-				<img src="img/screenshot.jpg" alt="">
-				</a>
-			</li>
-			
-			<li class="span3">
-				<a href="img/screenshot.jpg" rel="gallery" class="thumbnail">
-				<img src="img/screenshot.jpg" alt="">
-				</a>
-			</li>
-			
-			<li class="span3">
-				<a href="img/screenshot.jpg" rel="gallery" class="thumbnail">
-				<img src="img/screenshot.jpg" alt="">
-				</a>
-			</li>
-			
-			<li class="span3">
-				<a href="img/screenshot.jpg" rel="gallery" class="thumbnail">
-				<img src="img/screenshot.jpg" alt="">
-				</a>
-			</li>
-		</ul>
-	</div>
-	
-	
-	
-	<!-- CONTACT -->
-	<div class="row-fluid" id="contact">
-	
-		<h2 class="page-title" id="scroll_up">
-				Contact
-				<a href="#home" class="arrow-top">
-				<img src="img/arrow-top.png">
-				</a>
-			</h2>
-		
-		<!-- CONTACT INFO -->
-		<div class="span4" id="contact-info">
-			<h3>Contact Us</h3>
-			<p>FlexApp is free and thus unfortunately we cannot provide basic support for it. We simply don't have the time to answer everyone's questions.</p>
-			<p>However, you may contact us about general business inquiries or to report bugs in the template!<p>
-			<p><a href="mailto:support@yourapp.com">support@yourapp.com</a></p>
-		</div>
-		
-		<!-- CONTACT FORM -->
-		<div class="span7" id="contact-form">
-			<form class="form-horizontal">
-				<fieldset>
-					<div class="control-group">
-						<label class="control-label" for="name">Name</label>
-						<div class="controls">
-							<input class="input-xlarge" type="text" id="name" placeholder="John Doe">
-						</div>
-					</div>
-					<div class="control-group">
-						<label class="control-label" for="email">Email</label>
-						<div class="controls">
-							<input class="input-xlarge" type="text" id="email" placeholder="john@gmail.com">
-						</div>
-					</div>
-					<div class="control-group">
-						<label class="control-label" for="subject">Subject</label>
-						<div class="controls">
-							<input class="input-xlarge" type="text" id="subject" placeholder="General Inquiry">
-						</div>
-					</div>
-					<div class="control-group">
-						<label class="control-label" for="message">Message</label>
-						<div class="controls">
-							<textarea class="input-xlarge" rows="3" id="message" placeholder="Your message..."></textarea>
-						</div>
-					</div>
-					<div class="form-actions">
-						<button type="submit" class="btn btn-primary">SEND</button>
-					</div>
-				</fieldset>
-			</form>
-		</div>
-		
-	</div>
-	
+            <p>Location Scout is currently in beta but anyone can join! Here's how:</p>
+            
+            <h3 class="beta-step">1. Join the Google+ community</h3>
+            <p>
+                Only members of the <a href="https://plus.google.com/u/0/communities/117381337223507462127"><b>Location Scout beta test</b> 
+                Google+ community</a> can install the app. The community is also used to report bugs and suggest new features!
+            </p>
+            
+            <h3 class="beta-step">2. Become a tester</h3>
+            <p>
+                Before you can install the app, you have to <a href="https://play.google.com/apps/testing/com.sndurkin.locationscout">become a beta tester</a>.
+                This allows you to install and receives updates for the beta version of the app.
+            </p>
+            
+            <h3 class="beta-step">3. Install the app</h3>
+            <p>
+                Now you should be able to <a href="https://play.google.com/store/apps/details?id=com.sndurkin.locationscout">download the Location Scout app on the Play store</a>.
+                
+            </p>
+            
+        </div>
+    
+    </div>
+    
+    <div class="row-fluid" id="updates">
+        
+        <div class="span6 updates">
+            <h2 class="page-title" id="scroll_up">
+                Updates
+                <a href="#home" class="arrow-top">
+                <img src="img/arrow-top.png">
+                </a>
+            </h2>
+            
+            <!-- UPDATES & RELEASE NOTES -->
+            
+            <h3 class="version">Version 0.1.1 (beta)</h3>
+            <span class="release-date">Published on 11 Sept 2014</span>
+            <ul>
+                <li><div class="label new">NEW</div><div class="text">Added share option to location detail page</div></li>
+                <li><div class="label new">NEW</div><div class="text">Added bulk delete option from list/grid page</div></li>
+                <li><div class="label fix">FIX</div><div class="text">Fixed issue with deleting synced locations with unsynced photos</div></li>
+                <li><div class="label fix">FIX</div><div class="text">Fixed issue where synced photos were being unnecessarily re-uploaded to Drive</div></li>
+            </ul>
+            <hr>
+            
+            <h3 class="version">Version 0.1 (beta)</h3>
+            <span class="release-date">Published on 02 Sept 2014</span>
+            <ul>
+                <li>Initial release</li>
+            </ul>
+            
+        </div>
+    
+    </div>
+    
+    
+    
+    <!-- CONTACT -->
+    <div class="row-fluid" id="contact">
+    
+        <h2 class="page-title" id="scroll_up">
+                Contact
+                <a href="#home" class="arrow-top">
+                <img src="img/arrow-top.png">
+                </a>
+            </h2>
+        
+        <!-- CONTACT INFO -->
+        <div class="span4" id="contact-info">
+            <h3>Contact Us</h3>
+            <p>FlexApp is free and thus unfortunately we cannot provide basic support for it. We simply don't have the time to answer everyone's questions.</p>
+            <p>However, you may contact us about general business inquiries or to report bugs in the template!<p>
+            <p><a href="mailto:support@yourapp.com">support@yourapp.com</a></p>
+        </div>
+        
+        <!-- CONTACT FORM -->
+        <div class="span7" id="contact-form">
+            <form class="form-horizontal">
+                <fieldset>
+                    <div class="control-group">
+                        <label class="control-label" for="name">Name</label>
+                        <div class="controls">
+                            <input class="input-xlarge" type="text" id="name" placeholder="John Doe">
+                        </div>
+                    </div>
+                    <div class="control-group">
+                        <label class="control-label" for="email">Email</label>
+                        <div class="controls">
+                            <input class="input-xlarge" type="text" id="email" placeholder="john@gmail.com">
+                        </div>
+                    </div>
+                    <div class="control-group">
+                        <label class="control-label" for="subject">Subject</label>
+                        <div class="controls">
+                            <input class="input-xlarge" type="text" id="subject" placeholder="General Inquiry">
+                        </div>
+                    </div>
+                    <div class="control-group">
+                        <label class="control-label" for="message">Message</label>
+                        <div class="controls">
+                            <textarea class="input-xlarge" rows="3" id="message" placeholder="Your message..."></textarea>
+                        </div>
+                    </div>
+                    <div class="form-actions">
+                        <button type="submit" class="btn btn-primary">SEND</button>
+                    </div>
+                </fieldset>
+            </form>
+        </div>
+        
+    </div>
+    
 </div>
 
 
 <!-- FOOTER -->
 <div class="footer container container-fluid">
 
-	<!-- COPYRIGHT - EDIT HOWEVER YOU WANT! -->
-	<div id="copyright">
-		Copyright &copy; 2014 Carp.io<br>
-		Licensed under <a rel="license" href="http://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a>. Built on <a href="http://twitter.github.com/bootstrap/">Bootstrap</a>.
-	</div>
-	
-	<!-- CREDIT - PLEASE LEAVE THIS LINK! -->
-	<div id="credits">
-		<a href="http://github.differential.io/flexapp">Theme</a> by <a href="http://carp.io">Carp</a>.
-	</div>
+    <!-- COPYRIGHT - EDIT HOWEVER YOU WANT! -->
+    <div id="copyright">
+        Copyright &copy; 2014 Carp.io<br>
+        Licensed under <a rel="license" href="http://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a>. Built on <a href="http://twitter.github.com/bootstrap/">Bootstrap</a>.
+    </div>
+    
+    <!-- CREDIT - PLEASE LEAVE THIS LINK! -->
+    <div id="credits">
+        <a href="http://github.differential.io/flexapp">Theme</a> by <a href="http://carp.io">Carp</a>.
+    </div>
 
 </div>
 

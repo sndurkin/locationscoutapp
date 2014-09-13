@@ -124,6 +124,9 @@ h2 {
 .beta {
     color: #f33 !important;
 }
+.beta-light {
+    color: #f66 !important;
+}
 
 .beta-step {
     font-size: 24px;

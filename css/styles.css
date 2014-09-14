@@ -76,16 +76,16 @@ h2 {
     padding-left: 20px;
 }
 
-#icon {
-    position: relative;
-    float: left;
-    margin-right: 20px;
-}
-
 #app-name {
+    background: url(../img/icon96.png) no-repeat;
+    height: 96px;
     position: relative;
     float: left;
-    margin-top: 25px;
+    margin: 0.5em 0;
+    display: block;
+    padding-left: 114px;
+    line-height: 96px;
+    font-size: 5em;
 }
 
 #app-name h1 {
@@ -103,7 +103,15 @@ h2 {
 
 #description {
     margin-top: 2em;
-    margin-bottom: 1.8em;
+}
+
+#features-header {
+    margin-top: 1em;
+}
+
+#features {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
 }
 
 #features li {
@@ -115,10 +123,11 @@ h2 {
 }
 
 .download-box {
-    padding-top: 20px;
+    margin-top: 2em;
     padding-right: 5%;
     font-size: 0.9em;
     line-height: 1.3em;
+    float: right !important;
 }
 
 .beta {

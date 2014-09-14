@@ -8,142 +8,208 @@
 
  
 @media screen and (max-width: 979px) and (min-width: 768px) {
+    
+    .navbar-fixed-top {
+        margin-bottom: 0;
+    }
+    
+    #app-name h1 {
+        font-size: 4em;
+    }
 
-.content {
-	padding-top: 20px;
-	}
-	
-.hidden-desktop {
-	display: none!important;
-	}
+    .content {
+        padding-top: 20px;
+        }
+        
+    .hidden-desktop {
+        display: none!important;
+        }
 
-.visible-desktop {
-	display: inherit!important;
-	}
-	
-#version {
-	display: none;
-	}
+    .visible-desktop {
+        display: inherit!important;
+        }
+        
+    #version {
+        display: none;
+    }
+    
+    #app-name {
+        background-image: url(../img/icon72.png);
+        height: 72px;
+        padding-left: 90px;
+        font-size: 4em;
+        line-height: 72px;
+    }
 	
 }
 
 
 @media screen and (max-width: 767px) {
 
-/***** STRUCTURE *****/
+    /***** STRUCTURE *****/
+    
+    body {
+        padding: 0;
+    }
+    
+    .header .content {
+        padding: 40px 0 40px 0;
+    }
 
-.content {
-	padding-top: 0px;
-	}
-	
-.page-title {
-	padding: 30px 0;
-	}
+    .navbar-fixed-top {
+        margin: 0;
+    }
+    
+    .container-fluid {
+        padding-left: 2em;
+        padding-right: 2em;
+    }
+
+    .content {
+        padding-top: 0px;
+    }
+        
+    .page-title {
+        padding: 30px 0;
+    }
 
 
-/***** HOME *****/
+    /***** HOME *****/
 
-#app-name {
-	text-align: center;
-	float: none;
-	}
+    #app-name {
+        display: inline-block;
+        float: none;
+        background-image: url(../img/icon72.png);
+        height: 72px;
+        padding-left: 90px;
+        font-size: 4em;
+        line-height: 72px;
+    }
+    #app-name-wrapper {
+        text-align: center;
+    }
 
-#tagline {
-	text-align: center;
-	margin-top: 2em;
-	}
-	
-#version {
-	display: none;
-	}
-	
-#phones {
-	text-align: center;
-	margin-top: 20px;
-	}
-	
-#description {
-	margin-top: 0px;
-	}
-	
-.hidden-phone {
-	display: inherit!important;
-}
+    #tagline {
+        text-align: center;
+        margin-top: 2em;
+    }
+    
+    #description {
+        margin-top: 1em;
+    }
+        
+    #version {
+        display: none;
+    }
+        
+    #phones {
+        text-align: center;
+        margin-top: 20px;
+    }
+        
+    .hidden-phone {
+        display: inherit!important;
+    }
 
-.visible-phone {
-	display:none!important;
-}
+    .visible-phone {
+        display:none!important;
+    }
 
-/***** SCREENSHOTS *****/
+    /***** SCREENSHOTS *****/
 
-.thumbnails .span3, .thumbnails .span3:first-child {
-	width: 40%;
-	float: left;
-	margin: 1% 5%;
-	}
-	
-/***** CONTACT *****/
+    .thumbnails .span3, .thumbnails .span3:first-child {
+        width: 40%;
+        float: left;
+        margin: 1% 5%;
+    }
+        
+    /***** CONTACT *****/
 
-#contact-info {
-	padding-bottom:40px;
-	}
-	
-#contact-form {
-	border-left: none;
-	}
+    #contact-info {
+        padding-bottom:40px;
+    }
+        
+    #contact-form {
+        border-left: none;
+    }
 
-	
-.form-horizontal .control-label {
-	width: 90px;
-	}
+        
+    .form-horizontal .control-label {
+        width: 90px;
+    }
 
-.form-horizontal .form-actions {
-	padding-left: 100px;
-	}
-	
-#credits {
-	float: right;
+    .form-horizontal .form-actions {
+        padding-left: 100px;
+    }
+        
+    #credits {
+        float: right;
 	}
 	
 }
 
 @media screen and (max-width: 480px) {
+    
+    .header .content {
+        padding: 20px 0 20px 0;
+    }
+    
+    #tagline {
+        margin-top: 1em;
+    }
+    
+    #description {
+        margin-top: 1em;
+    }
+    
+    #app-name {
+        display: inline-block;
+        float: none;
+        background-image: url(../img/icon36.png);
+        height: 36px;
+        padding-left: 50px;
+        font-size: 2em;
+        line-height: 36px;
+    }
+    #app-name-wrapper {
+        text-align: center;
+    }
 
-#version {
-	display: none;
+    #version {
+        display: none;
 	}
 
-.version {
-	float:none;
+    .version {
+        float:none;
 	}
 
-.release-date {
-	float: none;
+    .release-date {
+        float: none;
 	}
 	
 
-.form-horizontal .controls {
-	margin-left: 0px;
+    .form-horizontal .controls {
+        margin-left: 0px;
 	}
 	
-.form-horizontal .control-label {
-	width: 90px;
+    .form-horizontal .control-label {
+        width: 90px;
 	}
 
-.form-horizontal .form-actions {
-	padding-left: 0px;
+    .form-horizontal .form-actions {
+        padding-left: 0px;
 	}
 	
-#credits {
-	float: left;
+    #credits {
+        float: left;
 	}
 	
-.hidden-phone {
-	display: none!important;
-}
+    .hidden-phone {
+        display: none!important;
+    }
 
-.visible-phone {
-	display:inherit!important;
-}
+    .visible-phone {
+        display:inherit!important;
+    }
 	
 }

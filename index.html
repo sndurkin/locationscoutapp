@@ -43,7 +43,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </a>
-        
+            
             <div class="nav-collapse collapse">
                 <ul id="nav-list" class="nav pull-right">
                     <li><a href="#home">Home</a></li>
@@ -60,9 +60,9 @@
 </div>
 
 
-<div class="header">
+<div class="header container-fluid">
 
-    <div class="container content container-fluid" id="home">
+    <div class="container content" id="home">
 
         <!-- HOME -->
         <div class="row-fluid">
@@ -75,15 +75,8 @@
             <!-- APP DETAILS -->
             <div class="span7">
         
-                <!-- ICON -->
-                <div class="visible-desktop" id="icon">
-                    <img src="img/app_icon.png" />
-                </div>
-                
-                <!-- APP NAME -->
-                <div id="app-name">
-                    <h1>Location Scout</h1>
-                </div>
+                <!-- ICON + APP NAME -->
+                <div id="app-name-wrapper"><h1 id="app-name">Location Scout</h1></div>
                 
                 <!-- TAGLINE -->
                 <div id="tagline">
@@ -98,25 +91,26 @@
                 <!-- DESCRIPTION -->
                 <div id="description">
                     Location Scout is an Android app that helps photographers and filmmakers save their scouted locations.
+                    
+                    <!-- FEATURES -->
+                    <div id="features-header">Features:</div>
+                    <ul id="features">
+                        <li>Save a location with a title, notes, tags, and photos</li>
+                        <li>View your saved locations in a list, grid or map</li>
+                        <li>Search your saved locations by text or tags</li>
+                        <li>Sync your saved locations across any number of Android devices using a Google Drive account</li>
+                        <li>Light and dark themes</li>
+                    </ul>
+                    </div>
                 </div>
                 
-                <!-- FEATURES -->
-                <div style="margin-bottom: 1em;">Features:</div>
-                <ul id="features">
-                    <li>Save a location with a title, notes, tags, and photos</li>
-                    <li>View your saved locations in a list, grid or map</li>
-                    <li>Search your saved locations by text or tags</li>
-                    <li>Sync your saved locations across any number of Android devices using a Google Drive account</li>
-                    <li>Light and dark themes</li>
-                </ul>
-                
                 <!-- DOWNLOAD & REQUIREMENT BOX -->
-                <div class="download-box">
+                <div class="span7 download-box">
                     <!--
                     <a href="https://play.google.com/store/apps/details?id=com.sndurkin.locationscout"><img src="img/android_app_on_play_logo_large.png"></a>
                     <div style="padding: 1em 0 0 1em">Requires Android 4.0+</div>
                     -->
-                    <h2 style="text-shadow: #333 0.02em 0.02em;">Location Scout is currently in beta but anyone can join. <a class="beta-light" href="#beta">Join the beta!</a></h2>
+                    <h2 style="text-shadow: #333 0.02em 0.02em;">Location Scout is currently in beta but anyone can join. <span id="header-beta"><a class="beta-light" href="#beta">Join the beta!</a></span></h2>
                     <div style="padding: 1em 0 0 0">App requires Android 4.0+</div>
                 </div>
                 
@@ -135,11 +129,11 @@
     <div class="row-fluid" id="screenshots">
         
         <h2 class="page-title" id="scroll_up">
-                Screenshots
-                <a href="#home" class="arrow-top">
-                <img src="img/arrow-top.png">
-                </a>
-            </h2>
+            Screenshots
+            <a href="#home" class="arrow-top">
+            <img src="img/arrow-top.png">
+            </a>
+        </h2>
         
         <!-- SCREENSHOT IMAGES ROW 1-->
         <ul class="thumbnails">

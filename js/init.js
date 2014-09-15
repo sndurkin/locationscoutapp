@@ -9,6 +9,6 @@ $(function(){
 	 });
      
     $("a").click(function(e) {
-        _trackEvent('UI Action', 'Click Link', e.target.href);
+        ga('send', 'event', 'link', 'click', e.target.href);
     });
  });

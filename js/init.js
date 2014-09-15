@@ -7,4 +7,8 @@ $(function(){
 				scrollTop: $($(this).children("a").attr("href")).offset().top
 		 },500);
 	 });
+     
+    $("a").click(function(e) {
+        _trackEvent('UI Action', 'Click Link', e.target.href);
+    });
  });

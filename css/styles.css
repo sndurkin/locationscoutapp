@@ -130,6 +130,10 @@ h2 {
     float: right !important;
 }
 
+.share-buttons {
+    margin-top: 2em;
+}
+
 .beta {
     color: #f33 !important;
 }

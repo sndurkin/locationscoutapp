@@ -41,7 +41,11 @@ h2 {
     font-size: 1.0em;
     line-height: 1.8em;
     margin-bottom: 1.1em;
-    }
+}
+
+#show-other-versions {
+  cursor: pointer;
+}
     
 
 /***** BODY *****/

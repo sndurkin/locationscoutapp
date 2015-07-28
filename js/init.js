@@ -11,4 +11,9 @@ $(function(){
     $("a").click(function(e) {
         ga('send', 'event', 'link', 'click', e.target.href);
     });
+    
+    $("#show-other-versions").click(function() {
+      $(this).hide();
+      $("#other-versions").show();
+    });
  });

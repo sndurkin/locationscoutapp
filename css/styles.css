@@ -92,6 +92,20 @@ h2 {
     font-size: 5em;
 }
 
+.small-logo {
+    background: url(../img/icon72.png) no-repeat;
+    background-size: contain;
+    height: 36px;
+    position: relative;
+    float: left;
+    margin: 0.5em 0;
+    display: block;
+    padding-left: 2em;
+    line-height: 36px;
+    font-size: 2em;
+    color: #eee;
+}
+
 #app-name h1 {
     font-size: 5.5em;
     font-size: 5.5em;
